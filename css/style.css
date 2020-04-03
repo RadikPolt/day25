@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,300&family=Playfair+Display&display=swap");
+
+body {
+  background: #fff;
+  font: 300 18px/1.92 "Lato", sans-serif;
+  color: #171717;
+  letter-spacing: 0.0535em;
+}
+
+/* Layout */
+.ba-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1440px;
+  margin-top: 131px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0 0 32px;
+}
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+  transition: color 0.3s ease-in, border-color 0.3s ease-in,
+    background-color 0.3s ease-in, opacity 0.3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button {
+  display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover {
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  transition: color 0.3s ease-in, border-color 0.3s ease-in,
+    background-color 0.3s ease-in, opacity 0.3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+}
+textarea {
+}
+
+.ba-main-wrap {
+  background: #fff;
+  padding: 134px 122px 120px 124px;
+  box-shadow: 0px 0px 55px 0px rgba(0, 0, 0, 0.1);
+}
+.ba-post-title {
+  font: 400 42px/1.2 "Playfair Display", serif;
+  letter-spacing: -0.005em;
+  margin-bottom: 20px;
+}
+.ba-befor-quotation {
+  margin-bottom: 0px;
+}
+.ba-quotation {
+  font-size: 24px;
+  font-style: italic;
+  line-height: 1.4;
+  margin-bottom: 24px;
+  letter-spacing: 0.09em;
+}
+.ba-qotation-big {
+  font-size: 60px;
+  padding-right: 12px;
+}
+.ba-discover {
+  font: 700 18px/1.9 "Lato", sans-serif;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #eaa258;
+  display: inline-block;
+  padding: 16px 70px;
+  border: 2px solid #eaa258;
+}
+.ba-discover:hover {
+  background: linear-gradient(to bottom, rgba(250, 250, 250, 0.5), #eaa258);
+  color: rebeccapurple;
+}
+.ba-big-letter::first-letter {
+  font: 400 6.11em/1 "Playfair Display", serif;
+  float: left;
+  margin: -12px 27px 0px 0px;
+}
